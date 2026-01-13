@@ -28,6 +28,7 @@
     <string name="notification_generic">Le temps est écoulé.</string>
     <string name="notification_channel_name">Notifications Pomodoro</string>
     <string name="notification_channel_description">Notifications des minuteries Pomodoro</string>
+    <string name="daily_reminder">Partageons la technique Pomodoro</string>
     <string name="permission_title">Autorisation de notification requise</string>
     <string name="permission_body">Autorisez les notifications pour être alerté à la fin.</string>
     <string name="permission_grant">Autoriser</string>

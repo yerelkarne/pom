@@ -28,6 +28,7 @@
     <string name="notification_generic">Tempo scaduto.</string>
     <string name="notification_channel_name">Notifiche Pomodoro</string>
     <string name="notification_channel_description">Notifiche dei timer Pomodoro</string>
+    <string name="daily_reminder">Condividiamo con la tecnica Pomodoro</string>
     <string name="permission_title">Autorizzazione notifiche richiesta</string>
     <string name="permission_body">Consenti le notifiche per gli avvisi di fine timer.</string>
     <string name="permission_grant">Consenti</string>

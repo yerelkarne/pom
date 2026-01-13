@@ -26,5 +26,9 @@
             android:name=".alarm.PomodoroAlarmReceiver"
             android:exported="false" />
 
+        <receiver
+            android:name=".alarm.DailyReminderReceiver"
+            android:exported="false" />
+
     </application>
 </manifest>

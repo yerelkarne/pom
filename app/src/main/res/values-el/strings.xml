@@ -28,6 +28,7 @@
     <string name="notification_generic">Ο χρόνος τελείωσε.</string>
     <string name="notification_channel_name">Ειδοποιήσεις Pomodoro</string>
     <string name="notification_channel_description">Ειδοποιήσεις χρονομέτρου Pomodoro</string>
+    <string name="daily_reminder">Ας μοιραστούμε με την τεχνική Pomodoro</string>
     <string name="permission_title">Απαιτείται άδεια ειδοποιήσεων</string>
     <string name="permission_body">Επιτρέψτε τις ειδοποιήσεις για ειδοποίηση λήξης χρόνου.</string>
     <string name="permission_grant">Επιτρέπεται</string>

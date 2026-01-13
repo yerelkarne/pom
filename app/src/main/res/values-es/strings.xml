@@ -28,6 +28,7 @@
     <string name="notification_generic">Se acabó el tiempo.</string>
     <string name="notification_channel_name">Notificaciones Pomodoro</string>
     <string name="notification_channel_description">Notificaciones del temporizador Pomodoro</string>
+    <string name="daily_reminder">Compartamos con la técnica Pomodoro</string>
     <string name="permission_title">Se requiere permiso de notificaciones</string>
     <string name="permission_body">Permite notificaciones para avisos de fin de tiempo.</string>
     <string name="permission_grant">Permitir</string>

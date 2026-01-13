@@ -28,6 +28,7 @@
     <string name="notification_generic">Süre bitti.</string>
     <string name="notification_channel_name">Pomodoro Bildirimleri</string>
     <string name="notification_channel_description">Pomodoro süre bitiş bildirimleri</string>
+    <string name="daily_reminder">Haydi Pomodoro Tekniği ile paylaşalım</string>
     <string name="permission_title">Bildirim izni gerekli</string>
     <string name="permission_body">Süre bitişinde bildirim gönderebilmek için izin verin.</string>
     <string name="permission_grant">İzin Ver</string>

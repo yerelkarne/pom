@@ -28,6 +28,7 @@
     <string name="notification_generic">Time is up.</string>
     <string name="notification_channel_name">Pomodoro Notifications</string>
     <string name="notification_channel_description">Notifications for Pomodoro timers</string>
+    <string name="daily_reminder">Let’s share with the Pomodoro Technique</string>
     <string name="permission_title">Notification permission required</string>
     <string name="permission_body">Allow notifications to alert you when time is up.</string>
     <string name="permission_grant">Allow</string>

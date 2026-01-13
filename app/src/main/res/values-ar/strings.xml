@@ -28,6 +28,7 @@
     <string name="notification_generic">انتهى الوقت.</string>
     <string name="notification_channel_name">إشعارات البومودورو</string>
     <string name="notification_channel_description">إشعارات مؤقت البومودورو</string>
+    <string name="daily_reminder">هيا نشارك بتقنية بومودورو</string>
     <string name="permission_title">يلزم إذن الإشعارات</string>
     <string name="permission_body">اسمح بالإشعارات للتنبيه عند انتهاء الوقت.</string>
     <string name="permission_grant">سماح</string>

@@ -28,6 +28,7 @@
     <string name="notification_generic">시간이 종료되었습니다.</string>
     <string name="notification_channel_name">포모도로 알림</string>
     <string name="notification_channel_description">포모도로 타이머 알림</string>
+    <string name="daily_reminder">포모도로 기법으로 함께 공유해요</string>
     <string name="permission_title">알림 권한 필요</string>
     <string name="permission_body">시간 종료 알림을 받으려면 허용하세요.</string>
     <string name="permission_grant">허용</string>

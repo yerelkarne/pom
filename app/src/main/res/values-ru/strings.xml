@@ -36,4 +36,5 @@
     <string name="lock_dialog_body">Закрепить приложение во время фокуса?</string>
     <string name="lock_dialog_confirm">Закрепить</string>
     <string name="lock_dialog_cancel">Отмена</string>
+    <string name="daily_reminder">Давайте поделимся техникой Pomodoro</string>
 </resources>

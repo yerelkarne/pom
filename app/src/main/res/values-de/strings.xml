@@ -28,6 +28,7 @@
     <string name="notification_generic">Zeit ist abgelaufen.</string>
     <string name="notification_channel_name">Pomodoro-Benachrichtigungen</string>
     <string name="notification_channel_description">Benachrichtigungen für Pomodoro-Timer</string>
+    <string name="daily_reminder">Lass uns mit der Pomodoro-Technik teilen</string>
     <string name="permission_title">Benachrichtigungserlaubnis erforderlich</string>
     <string name="permission_body">Erlaube Benachrichtigungen für Timer-Ende.</string>
     <string name="permission_grant">Erlauben</string>

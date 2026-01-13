@@ -28,6 +28,7 @@
     <string name="notification_generic">Timpul a expirat.</string>
     <string name="notification_channel_name">Notificări Pomodoro</string>
     <string name="notification_channel_description">Notificări pentru temporizatorul Pomodoro</string>
+    <string name="daily_reminder">Hai să împărtășim cu tehnica Pomodoro</string>
     <string name="permission_title">Este necesar accesul la notificări</string>
     <string name="permission_body">Permite notificările pentru alerte la final.</string>
     <string name="permission_grant">Permite</string>

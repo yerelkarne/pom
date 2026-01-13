@@ -5,6 +5,7 @@ import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.os.Build
 import com.google.android.gms.ads.MobileAds
+import com.pomodorofocus.app.alarm.DailyReminderScheduler
 import com.pomodorofocus.app.alarm.NotificationHelper
 
 class PomodoroApp : Application() {
@@ -12,6 +13,7 @@ class PomodoroApp : Application() {
         super.onCreate()
         MobileAds.initialize(this)
         createNotificationChannel()
+        DailyReminderScheduler.scheduleDailyReminder(this)
     }
 
     private fun createNotificationChannel() {

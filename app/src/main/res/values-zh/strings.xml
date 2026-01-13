@@ -28,6 +28,7 @@
     <string name="notification_generic">时间到。</string>
     <string name="notification_channel_name">番茄钟通知</string>
     <string name="notification_channel_description">番茄钟计时通知</string>
+    <string name="daily_reminder">让我们一起使用番茄工作法分享吧</string>
     <string name="permission_title">需要通知权限</string>
     <string name="permission_body">允许通知以在时间结束时提醒你。</string>
     <string name="permission_grant">允许</string>

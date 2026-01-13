@@ -28,6 +28,7 @@
     <string name="notification_generic">時間になりました。</string>
     <string name="notification_channel_name">ポモドーロ通知</string>
     <string name="notification_channel_description">ポモドーロタイマーの通知</string>
+    <string name="daily_reminder">ポモドーロ・テクニックで共有しましょう</string>
     <string name="permission_title">通知の許可が必要です</string>
     <string name="permission_body">終了時に通知するため許可してください。</string>
     <string name="permission_grant">許可</string>
