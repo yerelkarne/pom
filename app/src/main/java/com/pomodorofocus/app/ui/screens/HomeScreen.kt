@@ -26,6 +26,7 @@ import androidx.compose.material3.Badge
 import androidx.compose.material3.BadgeDefaults
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Text
@@ -45,7 +46,6 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import com.pomodorofocus.app.R
 import com.pomodorofocus.app.TimerAction
 import com.pomodorofocus.app.data.DEFAULT_BG_RES
 import com.pomodorofocus.app.data.TimerMode
@@ -55,6 +55,7 @@ import com.pomodorofocus.app.ui.components.CircularCountdownRing
 import com.pomodorofocus.app.ui.components.RotaryNumberPicker
 import kotlin.math.max
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeScreen(
     timerState: TimerState,
@@ -86,12 +87,14 @@ fun HomeScreen(
         val bgResId = remember(DEFAULT_BG_RES) {
             context.resources.getIdentifier(DEFAULT_BG_RES, "drawable", context.packageName)
         }
-        Image(
-            painter = painterResource(id = if (bgResId != 0) bgResId else R.drawable.bg_pomodoro),
-            contentDescription = null,
-            modifier = Modifier.fillMaxSize(),
-            contentScale = ContentScale.Crop
-        )
+        if (bgResId != 0) {
+            Image(
+                painter = painterResource(id = bgResId),
+                contentDescription = null,
+                modifier = Modifier.fillMaxSize(),
+                contentScale = ContentScale.Crop
+            )
+        }
         Box(
             modifier = Modifier
                 .fillMaxSize()
