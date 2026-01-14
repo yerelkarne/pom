@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PomodoroFocus</string>
+    <string name="app_name">Pomodoro</string>
     <string name="home">Home</string>
     <string name="stats">Stats</string>
     <string name="settings">Settings</string>
@@ -21,7 +21,7 @@
     <string name="stats_today_count">Pomodoros completed today</string>
     <string name="stats_today_focus">Total focus time today</string>
     <string name="stats_last_7">Last 7 days</string>
-    <string name="notification_title">PomodoroFocus</string>
+    <string name="notification_title">Pomodoro</string>
     <string name="notification_focus_done">Focus session finished.</string>
     <string name="notification_short_break_done">Short break finished.</string>
     <string name="notification_long_break_done">Long break finished.</string>

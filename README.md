@@ -1,11 +1,11 @@
-# PomodoroFocus
+# Pomodoro
 
-PomodoroFocus, Jetpack Compose + Material3 ile geliştirilmiş, üretime yakın kaliteye sahip bir Pomodoro odaklanma uygulamasıdır.
+Pomodoro, Jetpack Compose + Material3 ile geliştirilmiş, üretime yakın kaliteye sahip bir Pomodoro odaklanma uygulamasıdır.
 
 ## Gereksinimler
 - Android Studio Hedgehog veya üstü
 - JDK 17
-- Android SDK (API 34)
+- Android SDK (API 35)
 
 ## Kurulum
 1. Depoyu Android Studio ile açın.

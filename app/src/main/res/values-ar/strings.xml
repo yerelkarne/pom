@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PomodoroFocus</string>
+    <string name="app_name">Pomodoro</string>
     <string name="home">الرئيسية</string>
     <string name="stats">الإحصائيات</string>
     <string name="settings">الإعدادات</string>
@@ -21,7 +21,7 @@
     <string name="stats_today_count">البومودورو المكتملة اليوم</string>
     <string name="stats_today_focus">إجمالي وقت التركيز اليوم</string>
     <string name="stats_last_7">آخر 7 أيام</string>
-    <string name="notification_title">PomodoroFocus</string>
+    <string name="notification_title">Pomodoro</string>
     <string name="notification_focus_done">انتهت جلسة التركيز.</string>
     <string name="notification_short_break_done">انتهت الاستراحة القصيرة.</string>
     <string name="notification_long_break_done">انتهت الاستراحة الطويلة.</string>

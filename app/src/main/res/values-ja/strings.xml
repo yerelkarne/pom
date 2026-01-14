@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PomodoroFocus</string>
+    <string name="app_name">Pomodoro</string>
     <string name="home">ホーム</string>
     <string name="stats">統計</string>
     <string name="settings">設定</string>
@@ -21,7 +21,7 @@
     <string name="stats_today_count">今日完了したポモドーロ</string>
     <string name="stats_today_focus">今日の合計集中時間</string>
     <string name="stats_last_7">過去7日間</string>
-    <string name="notification_title">PomodoroFocus</string>
+    <string name="notification_title">Pomodoro</string>
     <string name="notification_focus_done">集中が終了しました。</string>
     <string name="notification_short_break_done">短い休憩が終了しました。</string>
     <string name="notification_long_break_done">長い休憩が終了しました。</string>

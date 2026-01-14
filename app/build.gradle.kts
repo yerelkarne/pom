@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.pomodorofocus.app"
+    namespace = "com.leosoft.pomodoro"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.pomodorofocus.app"
+        applicationId = "com.leosoft.pomodoro"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

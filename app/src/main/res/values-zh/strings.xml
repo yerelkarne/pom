@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PomodoroFocus</string>
+    <string name="app_name">Pomodoro</string>
     <string name="home">主页</string>
     <string name="stats">统计</string>
     <string name="settings">设置</string>
@@ -21,7 +21,7 @@
     <string name="stats_today_count">今日完成番茄钟</string>
     <string name="stats_today_focus">今日总专注时长</string>
     <string name="stats_last_7">最近7天</string>
-    <string name="notification_title">PomodoroFocus</string>
+    <string name="notification_title">Pomodoro</string>
     <string name="notification_focus_done">专注结束。</string>
     <string name="notification_short_break_done">短休息结束。</string>
     <string name="notification_long_break_done">长休息结束。</string>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PomodoroFocus</string>
+    <string name="app_name">Pomodoro</string>
     <string name="home">Ana Sayfa</string>
     <string name="stats">İstatistik</string>
     <string name="settings">Ayarlar</string>
@@ -21,7 +21,7 @@
     <string name="stats_today_count">Bugün tamamlanan pomodoro</string>
     <string name="stats_today_focus">Bugün toplam odak süresi</string>
     <string name="stats_last_7">Son 7 gün</string>
-    <string name="notification_title">PomodoroFocus</string>
+    <string name="notification_title">Pomodoro</string>
     <string name="notification_focus_done">Odak süresi bitti.</string>
     <string name="notification_short_break_done">Kısa mola bitti.</string>
     <string name="notification_long_break_done">Uzun mola bitti.</string>

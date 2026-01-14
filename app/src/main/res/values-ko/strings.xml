@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PomodoroFocus</string>
+    <string name="app_name">Pomodoro</string>
     <string name="home">홈</string>
     <string name="stats">통계</string>
     <string name="settings">설정</string>
@@ -21,7 +21,7 @@
     <string name="stats_today_count">오늘 완료한 포모도로</string>
     <string name="stats_today_focus">오늘 총 집중 시간</string>
     <string name="stats_last_7">지난 7일</string>
-    <string name="notification_title">PomodoroFocus</string>
+    <string name="notification_title">Pomodoro</string>
     <string name="notification_focus_done">집중 시간이 끝났습니다.</string>
     <string name="notification_short_break_done">짧은 휴식이 끝났습니다.</string>
     <string name="notification_long_break_done">긴 휴식이 끝났습니다.</string>

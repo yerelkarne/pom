@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PomodoroFocus</string>
+    <string name="app_name">Pomodoro</string>
     <string name="home">Inicio</string>
     <string name="stats">Estadísticas</string>
     <string name="settings">Ajustes</string>
@@ -21,7 +21,7 @@
     <string name="stats_today_count">Pomodoros completados hoy</string>
     <string name="stats_today_focus">Tiempo total de enfoque hoy</string>
     <string name="stats_last_7">Últimos 7 días</string>
-    <string name="notification_title">PomodoroFocus</string>
+    <string name="notification_title">Pomodoro</string>
     <string name="notification_focus_done">Sesión de enfoque finalizada.</string>
     <string name="notification_short_break_done">Pausa corta finalizada.</string>
     <string name="notification_long_break_done">Pausa larga finalizada.</string>

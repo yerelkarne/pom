@@ -1,4 +1,4 @@
-# PomodoroFocus Kullanım Kılavuzu
+# Pomodoro Kullanım Kılavuzu
 
 ## Bildirim İzni
 - Android 13+ cihazlarda uygulama açıldığında bildirim izni istenir.
