@@ -46,6 +46,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
+import com.pomodorofocus.app.R
 import com.pomodorofocus.app.TimerAction
 import com.pomodorofocus.app.data.DEFAULT_BG_RES
 import com.pomodorofocus.app.data.TimerMode
