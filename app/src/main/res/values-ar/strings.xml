@@ -17,7 +17,6 @@
     <string name="settings_auto_next">التبديل التلقائي إلى الوضع التالي</string>
     <string name="settings_sound">الصوت</string>
     <string name="settings_vibration">الاهتزاز</string>
-    <string name="settings_background_note">استبدل drawable/bg_pomodoro.jpg لصورة الخلفية.</string>
     <string name="stats_today_count">البومودورو المكتملة اليوم</string>
     <string name="stats_today_focus">إجمالي وقت التركيز اليوم</string>
     <string name="stats_last_7">آخر 7 أيام</string>

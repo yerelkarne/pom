@@ -5,6 +5,7 @@ import android.app.Application
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
+import android.os.Build
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.leosoft.pomodoro.alarm.NotificationHelper
@@ -181,7 +182,20 @@ class TimerViewModel(application: Application) : AndroidViewModel(application) {
         val alarmManager = getApplication<Application>().getSystemService(Context.ALARM_SERVICE) as AlarmManager
         val triggerAtMillis = System.currentTimeMillis() + seconds * 1000
         val pendingIntent = alarmIntent()
-        alarmManager.setExactAndAllowWhileIdle(AlarmManager.RTC_WAKEUP, triggerAtMillis, pendingIntent)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S && !alarmManager.canScheduleExactAlarms()) {
+            alarmManager.setWindow(
+                AlarmManager.RTC_WAKEUP,
+                triggerAtMillis,
+                WINDOW_LENGTH_MILLIS,
+                pendingIntent
+            )
+        } else {
+            alarmManager.setExactAndAllowWhileIdle(
+                AlarmManager.RTC_WAKEUP,
+                triggerAtMillis,
+                pendingIntent
+            )
+        }
     }
 
     private fun cancelAlarm() {
@@ -197,5 +211,9 @@ class TimerViewModel(application: Application) : AndroidViewModel(application) {
             intent,
             PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
         )
+    }
+
+    private companion object {
+        private const val WINDOW_LENGTH_MILLIS = 5 * 60 * 1000L
     }
 }

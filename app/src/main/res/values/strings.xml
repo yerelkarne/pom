@@ -17,7 +17,6 @@
     <string name="settings_auto_next">Otomatik sonraki moda geç</string>
     <string name="settings_sound">Ses</string>
     <string name="settings_vibration">Titreşim</string>
-    <string name="settings_background_note">Arka plan için drawable/bg_pomodoro.jpg dosyasını değiştirin.</string>
     <string name="stats_today_count">Bugün tamamlanan pomodoro</string>
     <string name="stats_today_focus">Bugün toplam odak süresi</string>
     <string name="stats_last_7">Son 7 gün</string>

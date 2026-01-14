@@ -17,7 +17,6 @@
     <string name="settings_auto_next">Auto switch to next mode</string>
     <string name="settings_sound">Sound</string>
     <string name="settings_vibration">Vibration</string>
-    <string name="settings_background_note">Replace drawable/bg_pomodoro.jpg for the background image.</string>
     <string name="stats_today_count">Pomodoros completed today</string>
     <string name="stats_today_focus">Total focus time today</string>
     <string name="stats_last_7">Last 7 days</string>

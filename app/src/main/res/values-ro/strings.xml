@@ -17,7 +17,6 @@
     <string name="settings_auto_next">Trece automat la următorul mod</string>
     <string name="settings_sound">Sunet</string>
     <string name="settings_vibration">Vibrație</string>
-    <string name="settings_background_note">Înlocuiește drawable/bg_pomodoro.jpg pentru imaginea de fundal.</string>
     <string name="stats_today_count">Pomodoro finalizate azi</string>
     <string name="stats_today_focus">Timp total de focus azi</string>
     <string name="stats_last_7">Ultimele 7 zile</string>

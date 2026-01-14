@@ -17,7 +17,6 @@
     <string name="settings_auto_next">次のモードへ自動切替</string>
     <string name="settings_sound">サウンド</string>
     <string name="settings_vibration">バイブレーション</string>
-    <string name="settings_background_note">背景画像は drawable/bg_pomodoro.jpg を置き換えてください。</string>
     <string name="stats_today_count">今日完了したポモドーロ</string>
     <string name="stats_today_focus">今日の合計集中時間</string>
     <string name="stats_last_7">過去7日間</string>

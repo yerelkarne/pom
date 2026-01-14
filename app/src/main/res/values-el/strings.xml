@@ -17,7 +17,6 @@
     <string name="settings_auto_next">Αυτόματη μετάβαση στο επόμενο</string>
     <string name="settings_sound">Ήχος</string>
     <string name="settings_vibration">Δόνηση</string>
-    <string name="settings_background_note">Αντικαταστήστε το drawable/bg_pomodoro.jpg για εικόνα φόντου.</string>
     <string name="stats_today_count">Ολοκληρωμένα pomodoro σήμερα</string>
     <string name="stats_today_focus">Συνολικός χρόνος εστίασης σήμερα</string>
     <string name="stats_last_7">Τελευταίες 7 ημέρες</string>

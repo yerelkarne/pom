@@ -17,7 +17,6 @@
     <string name="settings_auto_next">Автопереход к следующему режиму</string>
     <string name="settings_sound">Звук</string>
     <string name="settings_vibration">Вибрация</string>
-    <string name="settings_background_note">Замените drawable/bg_pomodoro.jpg для фона.</string>
     <string name="stats_today_count">Сегодня завершено помодоро</string>
     <string name="stats_today_focus">Общее время фокуса сегодня</string>
     <string name="stats_last_7">Последние 7 дней</string>

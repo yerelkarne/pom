@@ -17,7 +17,6 @@
     <string name="settings_auto_next">다음 모드로 자동 전환</string>
     <string name="settings_sound">사운드</string>
     <string name="settings_vibration">진동</string>
-    <string name="settings_background_note">배경 이미지는 drawable/bg_pomodoro.jpg로 교체하세요.</string>
     <string name="stats_today_count">오늘 완료한 포모도로</string>
     <string name="stats_today_focus">오늘 총 집중 시간</string>
     <string name="stats_last_7">지난 7일</string>

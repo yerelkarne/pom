@@ -67,12 +67,6 @@ fun SettingsScreen(settingsState: SettingsState, onSettingsAction: (SettingsActi
             checked = settingsState.vibrationEnabled,
             onCheckedChange = { onSettingsAction(SettingsAction.UpdateVibration(it)) }
         )
-
-        Text(
-            text = stringResource(R.string.settings_background_note),
-            style = MaterialTheme.typography.bodyLarge,
-            modifier = Modifier.padding(top = 16.dp)
-        )
     }
 }
 
