@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Pomodoro</string>
+    <string name="mode_pomodoro">POMODORO</string>
     <string name="home">Accueil</string>
     <string name="stats">Statistiques</string>
     <string name="settings">Paramètres</string>
@@ -8,6 +9,7 @@
     <string name="resume">Reprendre</string>
     <string name="finish">Terminer</string>
     <string name="screen_lock">Verrouiller l’écran</string>
+    <string name="screen_unlock">Déverrouiller</string>
     <string name="locked_mode">Mode verrouillé</string>
     <string name="unlock_hint">Maintenez Retour pour quitter le mode verrouillé.</string>
     <string name="settings_focus">Durée de focus (min)</string>

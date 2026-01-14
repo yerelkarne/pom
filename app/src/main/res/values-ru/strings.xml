@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Pomodoro</string>
+    <string name="mode_pomodoro">POMODORO</string>
     <string name="home">Главная</string>
     <string name="stats">Статистика</string>
     <string name="settings">Настройки</string>
@@ -8,6 +9,7 @@
     <string name="resume">Продолжить</string>
     <string name="finish">Завершить</string>
     <string name="screen_lock">Закрепить экран</string>
+    <string name="screen_unlock">Разблокировать</string>
     <string name="locked_mode">Режим закрепления</string>
     <string name="unlock_hint">Нажмите и удерживайте Назад для выхода.</string>
     <string name="settings_focus">Фокус (мин)</string>

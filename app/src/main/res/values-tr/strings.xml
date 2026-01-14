@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Pomodoro</string>
+    <string name="mode_pomodoro">POMODORO</string>
     <string name="home">Ana Sayfa</string>
     <string name="stats">İstatistik</string>
     <string name="settings">Ayarlar</string>
@@ -8,6 +9,7 @@
     <string name="resume">Devam Et</string>
     <string name="finish">Bitir</string>
     <string name="screen_lock">Ekranı Kilitle</string>
+    <string name="screen_unlock">Kilidi Aç</string>
     <string name="locked_mode">Kilitli Mod Açık</string>
     <string name="unlock_hint">Kilitli moddan çıkmak için geri tuşunu uzun basın.</string>
     <string name="settings_focus">Odak süresi (dk)</string>

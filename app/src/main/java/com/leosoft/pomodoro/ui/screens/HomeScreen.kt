@@ -118,12 +118,27 @@ fun HomeScreen(
         ) {
             Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
                 Text(
-                    text = timerState.mode.name.replace("_", " "),
+                    text = if (timerState.mode == TimerMode.FOCUS) {
+                        context.getString(R.string.mode_pomodoro)
+                    } else {
+                        timerState.mode.name.replace("_", " ")
+                    },
                     style = MaterialTheme.typography.titleLarge,
                     color = MaterialTheme.colorScheme.onBackground
                 )
-                TextButton(onClick = { showLockDialog = true }) {
-                    Text(text = context.getString(R.string.screen_lock))
+                TextButton(onClick = {
+                    if (timerState.lockedMode) {
+                        requestScreenPinning(context, false, onTimerAction)
+                    } else {
+                        showLockDialog = true
+                    }
+                }) {
+                    val lockLabel = if (timerState.lockedMode) {
+                        context.getString(R.string.screen_unlock)
+                    } else {
+                        context.getString(R.string.screen_lock)
+                    }
+                    Text(text = lockLabel)
                 }
             }
 
