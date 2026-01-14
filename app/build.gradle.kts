@@ -34,6 +34,11 @@ android {
         jvmTarget = "17"
     }
 
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
     packaging {
         resources.excludes.add("/META-INF/{AL2.0,LGPL2.1}")
     }
