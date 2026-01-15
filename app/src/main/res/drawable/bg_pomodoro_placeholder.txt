@@ -1,0 +1,2 @@
+Place your background image here.
+Replace this file with bg_pomodoro.jpg (same name) in drawable.
