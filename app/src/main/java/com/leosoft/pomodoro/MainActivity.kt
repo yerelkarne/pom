@@ -37,8 +37,7 @@ class MainActivity : ComponentActivity() {
                         statsState = statsState,
                         onSettingsAction = mainViewModel::handleSettingsAction,
                         onTimerAction = timerViewModel::handleTimerAction,
-                        onPermissionResult = mainViewModel::onNotificationPermissionResult,
-                        onRecordSession = mainViewModel::recordSession
+                        onPermissionResult = mainViewModel::onNotificationPermissionResult
                     )
                 }
             }

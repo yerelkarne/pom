@@ -12,6 +12,7 @@ import com.leosoft.pomodoro.alarm.NotificationHelper
 import com.leosoft.pomodoro.alarm.PomodoroAlarmReceiver
 import com.leosoft.pomodoro.data.SettingsRepository
 import com.leosoft.pomodoro.data.SettingsState
+import com.leosoft.pomodoro.data.StatsRepository
 import com.leosoft.pomodoro.data.TimerEngine
 import com.leosoft.pomodoro.data.TimerMode
 import com.leosoft.pomodoro.data.TimerState
@@ -36,6 +37,7 @@ sealed class TimerAction {
 
 class TimerViewModel(application: Application) : AndroidViewModel(application) {
     private val settingsRepository = SettingsRepository(application)
+    private val statsRepository = StatsRepository(application, settingsRepository)
     private val timerEngine = TimerEngine(application, settingsRepository)
 
     private val _timerState = MutableStateFlow(TimerState())
@@ -149,6 +151,12 @@ class TimerViewModel(application: Application) : AndroidViewModel(application) {
             NotificationHelper.showTimerDoneNotification(getApplication(), state.mode)
             cancelAlarm()
             if (state.mode == TimerMode.FOCUS) {
+                statsRepository.addSession(
+                    StatsRepository.Session(
+                        timestamp = System.currentTimeMillis() / 1000,
+                        durationSeconds = state.totalSeconds
+                    )
+                )
                 timerEngine.incrementCycle()
             }
             val settings = settingsState.value

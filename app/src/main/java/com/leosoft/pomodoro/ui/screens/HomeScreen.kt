@@ -60,8 +60,7 @@ import kotlin.math.max
 @Composable
 fun HomeScreen(
     timerState: TimerState,
-    onTimerAction: (TimerAction) -> Unit,
-    onRecordSession: (Long) -> Unit
+    onTimerAction: (TimerAction) -> Unit
 ) {
     val context = LocalContext.current
     val formattedTime = formatTime(timerState.remainingSeconds)
@@ -71,12 +70,6 @@ fun HomeScreen(
 
     var showPicker by remember { mutableStateOf(false) }
     var showLockDialog by remember { mutableStateOf(false) }
-
-    LaunchedEffect(timerState.remainingSeconds, timerState.mode) {
-        if (timerState.mode == TimerMode.FOCUS && timerState.remainingSeconds == 0L) {
-            onRecordSession(timerState.totalSeconds)
-        }
-    }
 
     LaunchedEffect(timerState.remainingSeconds, timerState.lockedMode) {
         if (timerState.remainingSeconds == 0L && timerState.lockedMode) {

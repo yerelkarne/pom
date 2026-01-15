@@ -46,8 +46,7 @@ fun PomodoroAppRoot(
     statsState: StatsState,
     onSettingsAction: (SettingsAction) -> Unit,
     onTimerAction: (TimerAction) -> Unit,
-    onPermissionResult: (Boolean) -> Unit,
-    onRecordSession: (Long) -> Unit
+    onPermissionResult: (Boolean) -> Unit
 ) {
     val navController = rememberNavController()
     val context = LocalContext.current
@@ -78,8 +77,7 @@ fun PomodoroAppRoot(
             composable(BottomNavItem.Home.route) {
                 HomeScreen(
                     timerState = timerState,
-                    onTimerAction = onTimerAction,
-                    onRecordSession = onRecordSession
+                    onTimerAction = onTimerAction
                 )
             }
             composable(BottomNavItem.Stats.route) {
